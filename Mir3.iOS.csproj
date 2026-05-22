@@ -1,6 +1,6 @@
 <Project Sdk="Microsoft.NET.Sdk">
   <PropertyGroup>
-    <TargetFramework>net8.0-ios16.1</TargetFramework>
+<TargetPlatformVersion>18.0</TargetPlatformVersion>
     <OutputType>Exe</OutputType>
     <SupportedOSPlatformVersion>11.2</SupportedOSPlatformVersion>
     <CodesignKey>iPhone Developer</CodesignKey>
