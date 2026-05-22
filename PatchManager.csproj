@@ -36,11 +36,12 @@
     <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
   </PropertyGroup>
   <ItemGroup>
+  <PackageReference Include="ICSharpCode.SharpZipLib" Version="0.86.0.518" />
+  </ItemGroup>
+  <ItemGroup>
     <Reference Include="AndroidXml, Version=1.1.0.0, Culture=neutral, PublicKeyToken=83c484145c9f9ac8, processorArchitecture=MSIL">
       <HintPath>..\packages\AndroidXml.1.1.24\lib\netstandard2.0\AndroidXml.dll</HintPath>
     </Reference>
-    <Reference Include="DotNetZip, Version=1.16.0.0, Culture=neutral, PublicKeyToken=6583c7c814667745, processorArchitecture=MSIL">
-      <HintPath>..\packages\DotNetZip.1.16.0\lib\net40\DotNetZip.dll</HintPath>
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
